@@ -15,7 +15,7 @@ int main()
         int a, b, c;
         cin >> a >> b >> c;
         int mx = max(a, b);
-        cout << mx << " " << c << endl;
+        
         if (c > mx)
         {
             v.push_back("+");
